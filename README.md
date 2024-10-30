@@ -1,5 +1,5 @@
-# SpeechBot-Helper
-SpeechBot Helper is an interactive voice assistant built using Python, designed to convert text to speech and recognize speech commands. The project utilizes the `gTTS`, `pyttsx3`, and `SpeechRecognition` libraries to enable text-to-speech conversion and speech recognition functionality. This assistant can respond to greetings, check the current time, and more.
+# Overview
+SpeechBot Helper is an interactive voice assistant application that utilizes text-to-speech and speech recognition technologies to respond to user queries and commands.
 
 ## Features
 
@@ -39,6 +39,24 @@ Install the required packages (if not already installed):
 ```bash
 pip install gTTS pyttsx3 SpeechRecognition
 ```
+## Running the Application
+### Option 1: Running from Source
+Clone this repository:
+```bash
+git clone https://github.com/RewanAbdulkariem/SpeechBot-Helper.git
+```
+Navigate to the project directory:
+```bash
+cd SpeechBot-Helper
+```
+Run the Python script:
+```bash
+python speech_bot.py
+```
+### Option 2: Running the Executable
+
+- Navigate to the dist folder where the executable is located.
+- Double-click the speech_bot.exe file to run the application.
 ## Usage
 The project consists of four main components, each serving a specific functionality. You can run each script independently.
 
@@ -60,7 +78,7 @@ This script initializes a speech recognition loop that listens for audio input f
 Filename:[2-speech_recognition_interactive](2-speech_recognition_interactive.py)
 
 This script offers an interactive experience where the assistant responds to user commands. 
-#### Final project
+### Final project
 Filename:[SpeechBot.py](SpeechBot.py)
 
 
@@ -71,8 +89,3 @@ Filename:[SpeechBot.py](SpeechBot.py)
 ### Summary of Updates:
 - Each script is given a professional description, explaining its purpose and functionality in the context of the project.
 - This detailed overview enhances the professionalism of the README and helps users understand the capabilities and structure of the project more clearly.
-
-
-
-
-
