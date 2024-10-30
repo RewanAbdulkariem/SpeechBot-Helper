@@ -42,24 +42,27 @@ pip install gTTS pyttsx3 SpeechRecognition
 ## Usage
 The project consists of four main components, each serving a specific functionality. You can run each script independently.
 
-### 1. Text to Speech using gTTS
+#### 1. Text to Speech using gTTS
 Filename: [1-text_to_audio.py](1-text_to_audio.py)
 
 This script converts a predefined text message into speech using the **gTTS** library and plays the generated audio. It's a simple demonstration of converting text to speech in a standalone manner.
 
-### 2. Text to Speech using pyttsx3 with File Input
+#### 2. Text to Speech using pyttsx3 with File Input
 Filename: [1-text_to_speech.py](1-text_to_speech.py)
 
 This script reads text from a specified text file and converts it to speech using the **pyttsx3** library. This allows for flexibility in audio generation, as you can easily change the text content by editing the file.
 
-### 3. Speech Recognition Listening Loop
+#### 3. Speech Recognition Listening Loop
 Filename:  [2-speech_to_text.py](2-speech_to_text.py)
 This script initializes a speech recognition loop that listens for audio input from the user. It prints out the recognized text, providing a basic foundation for further interaction. This can be a good starting point for implementing more complex features based on user speech.
 
-### 4. Enhanced Speech Recognition with Responses and Time
+#### 4. Enhanced Speech Recognition with Responses and Time
 Filename:[2-speech_recognition_interactive](2-speech_recognition_interactive.py)
 
-This script offers an interactive experience where the assistant responds to user commands. It recognizes greetings, checks the current time, and provides predefined responses based on user input. This serves as a more sophisticated version of the previous script, demonstrating how to create an engaging conversational interface.
+This script offers an interactive experience where the assistant responds to user commands. 
+#### Final project
+Filename:[SpeechBot.py](SpeechBot.py)
+
 
 ## Acknowledgements
 - gTTS: Google Text-to-Speech API
